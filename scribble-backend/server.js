@@ -95,7 +95,7 @@ app.post("/upload", upload.single("video"), async (req, res) => {
 
     console.log("Vidéo envoyée à Cloudinary :", publicVideoUrl);
 
-    const downloadUrl = await generateDownloadUrl(objectName); // Generate a pre-signed URL for downloading the video from Minio
+    //const downloadUrl = await generateDownloadUrl(objectName); // Generate a pre-signed URL for downloading the video from Minio
 
     const qrCode = await QRService(publicVideoUrl); // Generate a QR code for the public Cloudinary URL
 
@@ -107,14 +107,14 @@ app.post("/upload", upload.single("video"), async (req, res) => {
 
     res.json({
       success: true,
-      videoUrl: downloadUrl,
+      videoUrl: publicVideoUrl, // Send the public Cloudinary URL to the frontend
       publicVideoUrl: publicVideoUrl, // Send the public Cloudinary URL to the frontend
       qrCode: qrCode, // Send the QR code to the frontend
     });
 
     console.log("Object envoyé :", objectName); // Log the object name of the uploaded video in Minio
 
-    console.log("URL envoyée au frontend :", downloadUrl); // Log the pre-signed URL sent to the frontend
+    console.log("URL envoyée au frontend :", publicVideoUrl); // Log the pre-signed URL sent to the frontend
 
     console.log("QR Code généré :", qrCode); // Log the generated QR code
 
