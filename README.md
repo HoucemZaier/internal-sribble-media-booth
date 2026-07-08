@@ -1,6 +1,6 @@
 # internal-sribble-media-booth-2026
 
-Plateforme web interactive de capture, traitement et diffusion de vidéos personnalisées, pensée pour des expériences type photobooth / media booth. Le projet combine un frontend React moderne, un backend Express, une chaîne de traitement vidéo automatisée et des services de stockage et de distribution comme Cloudinary et MinIO.
+Application web interactive de capture, traitement et diffusion de vidéos personnalisées, pensée pour des expériences type photobooth / media booth. Le projet combine un frontend React moderne, un backend Express, une chaîne de traitement vidéo automatisée et des services de stockage et de distribution comme Cloudinary et MinIO.
 
 ## Table des matières
 
