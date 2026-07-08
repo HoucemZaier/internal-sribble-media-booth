@@ -44,7 +44,7 @@ Le projet centralise tout le workflow dans une application full stack :
 - FFmpeg prépare la vidéo
 - un script Python ajoute la couche de personnalisation visuelle
 - Cloudinary fournit une URL publique de diffusion
-- MinIO stocke la vidéo finale et permet un téléchargement sécurisé
+- MinIO déployé via Docker pour faciliter son exécution et sa gestion stocke la vidéo finale et permet un téléchargement sécurisé
 - un QR Code simplifie l’accès au contenu final
 
 ### Objectifs
