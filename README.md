@@ -566,7 +566,7 @@ QR Code
 - **Script Python** : création du rendu final avec composition visuelle
 - **Création Scribble** : export du fichier `scribble.mp4`
 - **Cloudinary** : génération d’une URL publique pour consultation ou partage
-- **MinIO** : stockage objet et génération d’un lien temporaire de téléchargement
+- **MinIO** : stockage objet dans un serveur 
 - **QR Code** : accès rapide au lien final depuis un mobile
 
 ## 11. Sécurité
