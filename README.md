@@ -2,6 +2,8 @@
 
 Application web interactive de capture, traitement et diffusion de vidéos personnalisées, pensée pour des expériences type photobooth / media booth. Le projet combine un frontend React moderne, un backend Express, une chaîne de traitement vidéo automatisée et des services de stockage et de distribution comme Cloudinary et MinIO.
 
+Cette application a été développée durant mon stage au sein de l'entreprise Ulysse Media.
+
 ## Table des matières
 
 1. [Présentation du projet](#1-présentation-du-projet)
